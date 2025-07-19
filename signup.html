@@ -82,7 +82,7 @@
             const email = form.email.value;
             const password = form.password.value;
 
-            fetch('/api/sendConfirmationEmail', {
+            fetch('sendConfirmationEmail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
